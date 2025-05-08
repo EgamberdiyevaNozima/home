@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class CategoryButton extends StatelessWidget {
   final String icon;
@@ -18,10 +19,10 @@ class CategoryButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(16),
           ),
           child: Center(
-            child: Image.asset(icon, height: 28),
+            child: SvgPicture.asset(icon, height: 28),
           ),
         ),
-         SizedBox(height: 6),
+        SizedBox(height: 6),
         Text(label),
       ],
     );

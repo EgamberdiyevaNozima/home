@@ -15,24 +15,24 @@ class PropertyCard extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: Image.asset('assets/images/room(2).png'),
+            child: Image.asset('assets/images/room.png'),
           ),
-           SizedBox(height: 6),
-           Padding(
+          SizedBox(height: 6),
+          Padding(
             padding: EdgeInsets.symmetric(horizontal: 8),
             child: Text(
               '720 000 000 uzs',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
-           Padding(
+          Padding(
             padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
             child: Text(
               'Кв. • 3ком. • 4 из 4 • 73м²',
               style: TextStyle(color: Colors.grey),
             ),
           ),
-           Padding(
+          Padding(
             padding: EdgeInsets.symmetric(horizontal: 8),
             child: Row(
               children: [
